@@ -1,0 +1,27 @@
+const AppData = [
+  { name: "Dashboard", href: "/dashboard", description: "ระบบจัดการหลังบ้าน" },
+  { name: "Shop", href: "/shop", description: "หน้าร้านค้าออนไลน์" },
+  { name: "Auth", href: "/auth", description: "ระบบล็อกอิน" },
+  { name: "Blog", href: "/blog", description: "บทความ" },
+  { name: "Chat", href: "/chat", description: "ระบบแชท" },
+  { name: "Payment", href: "/payment", description: "ระบบการชำระเงิน" },
+  {
+    name: "Notification",
+    href: "/notification",
+    description: "ระบบการแจ้งเตือน",
+  },
+  { name: "Settings", href: "/settings", description: "การตั้งค่า" },
+  { name: "Profile", href: "/profile", description: "โปรไฟล์ผู้ใช้" },
+  { name: "Support", href: "/support", description: "การสนับสนุน" },
+  { name: "Reports", href: "/reports", description: "รายงาน" },
+  { name: "Analytics", href: "/analytics", description: "สถิติ" },
+  { name: "Inventory", href: "/inventory", description: "การจัดการสินค้า" },
+  { name: "Orders", href: "/orders", description: "การจัดการคำสั่งซื้อ" },
+  { name: "Shipping", href: "/shipping", description: "การจัดส่ง" },
+  { name: "Feedback", href: "/feedback", description: "ความคิดเห็น" },
+  { name: "API", href: "/api", description: "API Documentation" },
+  { name: "Integrations", href: "/integrations", description: "การเชื่อมต่อ" },
+  { name: "Security", href: "/security", description: "ความปลอดภัย" },
+  { name: "Performance", href: "/performance", description: "ประสิทธิภาพ" },
+];
+export default AppData;
